@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  height: 460px;
+  width: 310px;
+  padding: 10px 5px;
+  margin: 50px auto;
+  box-shadow: 0px 0px 10px #373359;
+  background-color: #020048;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.display{
+  height: 80px;
+  width: 100%;
+  background-color: #00032A;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.display .main-display{
+  height: 70px;
+  width: 100%;
+  margin: 5px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 40px;
+  font-weight: 700;
+  background-color: #DCDCDC;
+}
+.numbers{
+  height: 370px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: transparent;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.numbers .del{
+  width:100%;
+  margin-left: 6px;
+}
+.numbers .del .btn{
+  height: 50px;
+  width: 60px;
+  font-size: 20px;
+  margin: 0px 7px;
+  padding: 0;
+}
+.numbers .btn{
+  height: 50px;
+  width: 50px;
+  margin: 2px 12px;
+  border-radius: 20px;
+  font-size: 35px;
+  font-weight: 600;
+  background-color: #000750;
+  color: white;
+  border: 1px solid #01002E;
+  outline: none;
+  box-shadow: -5px -4px 4px 2px #03005F;
+}
+.numbers .btn:hover{
+  border: 2px solid white;
+  transition: all 0.1s ease-in;
+}
